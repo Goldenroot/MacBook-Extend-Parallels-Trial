@@ -1,5 +1,3 @@
-# MacBook-Extend-Parallels-Trial
-
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
 <!--
@@ -36,10 +34,10 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">MacBook Extend Parallels Trial</h3>
 
   <p align="center">
-    An awesome README template to jumpstart your projects!
+    Simple Shortcut Script to Bypass Macbook Parallels Trial
     <br />
     <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
     <br />
@@ -270,5 +268,3 @@ Use this space to list resources you find helpful and would like to give credit 
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-
-Shortcut Script to Bypass Macbook Parallels Trial
