@@ -26,7 +26,6 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
@@ -52,21 +51,49 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Go to your Shortcuts Panel
 
-<img width="992" alt="Captura de ecrã 2022-10-05, às 09 40 19" src="https://user-images.githubusercontent.com/36825211/194018477-b19b47b4-d917-4d69-82d0-16510f4a31c4.png">
+<div align="center">
+  <img width="500" alt="Captura de ecrã 2022-10-05, às 09 40 19" src="https://user-images.githubusercontent.com/36825211/194018477-b19b47b4-d917-4d69-82d0-16510f4a31c4.png">
+</div>
 
-2. Create First Shortcut
+2. Create First Shortcut - "Start Parallels"
+
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   Click on the Plus Sign, give your Shortcut a name and Select "Terminal > Execute Shell Script"
    ```
    
-3. Create Second Shortcut
+2.1. Copy and paste this code - (Dont forget to change it to your Username)
+
    ```sh
-   npm install
+   cd /Users/"YourUser"/Documents
+   sudo -S date -u 1101175721 
+   ```
+ 
+2.2 Go to "Shortcut Details" 
+
+   ```sh
+   Enable Fix on the Menu Bar
+   ```
+   
+3. Create Second Shortcut - "Stop Parallels"
+
+   ```sh
+   Click on the Plus Sign, give your Shortcut a name and Select "Terminal > Execute Shell Script"
+   ```
+   
+3.1 Copy and paste this code
+
+   ```sh
+   sudo systemsetup -setusingnetworktime Off
+   sudo systemsetup -setusingnetworktime On
+   ```
+   
+   3.2 Go to "Shortcut Details" 
+
+   ```sh
+   Enable Fix on the Menu Bar
    ```
 
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 <!-- USAGE EXAMPLES -->
@@ -78,34 +105,12 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTACT -->
-## Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
 * [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
